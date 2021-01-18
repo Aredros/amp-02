@@ -1,0 +1,64 @@
+h1 {
+  font-family: "Montserrat-bold";
+  font-size: 22px;
+}
+
+.area-one-col-text {
+  padding-top: 50px;
+}
+
+.area-two-philosophie,
+.area-four-philosophie {
+  height: 300px;
+}
+
+.area-three-philosophie {
+}
+
+.part-one-area-three {
+  padding: 0;
+}
+
+.center {
+  margin: auto;
+}
+
+.fixed-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.area-four-philosophie {
+}
+
+.area-one-col-img {
+  text-align: center;
+}
+
+.area-one-col-text {
+}
+
+amp-img.contain img {
+  object-fit: contain;
+}
+
+@media only screen and (min-width: 600px) {
+  .area-two-philosophie,
+  .area-four-philosophie {
+    height: 250px;
+  }
+
+  .part-two-area-two {
+    text-align: left;
+    padding-right: 50px;
+  }
+
+  .fixed-container {
+    height: 400px;
+  }
+
+  .part-two-area-two {
+    margin-top: 100px;
+  }
+}

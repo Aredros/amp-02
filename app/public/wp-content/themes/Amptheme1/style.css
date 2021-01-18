@@ -1,0 +1,84 @@
+/*
+Theme Name: AMP 1
+Author: the Wordpress TPTF Team
+Description: first AMP WP theme
+Version: 1.0
+Requires at least: 5.0
+Text Domain: TPTF
+*/
+
+@font-face {
+  font-family: Montserrat-light;
+  src: url("fonts/Montserrat-Light.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Montserrat-regular;
+  src: url("fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Montserrat-bold;
+  src: url("fonts/Montserrat-Bold.ttf");
+  font-weight: normal;
+}
+
+/*TEXT COLOR*/
+
+.black {
+  color: black;
+}
+.white {
+  color: white;
+}
+.shadows {
+  box-shadow: 5px 5px 4px #63636380;
+}
+.border {
+  border-radius: 7px;
+}
+
+.green-bg {
+  background: #589697;
+}
+
+.center {
+  align-content: center;
+  text-align: center;
+}
+/*TEXT FONT*/
+p {
+  font-family: "Montserrat-light";
+}
+
+/*COLOR FOR BUTTONS*/
+
+.green-color {
+  background: #589697;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #1a4c4d 50%,
+    #1a4c4d
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.25s ease-in;
+}
+
+.green-color:hover {
+  background-position: 0 0;
+}
+
+.green-color:active {
+  background-position: 0 0;
+}
+
+.green-button {
+  font-family: "Montserrat-Bold";
+  font-size: 21pt;
+  padding: 10px 30px;
+  border-radius: 7px;
+  margin-top: 15px;
+}

@@ -1,0 +1,16 @@
+.store-archive-contain {
+  background-color: white;
+  height: 300px;
+  width: 500px;
+}
+
+.store-archive-thumbnail-image {
+  height: 150px;
+  width: 250px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.store-archive-title {
+  font-family: "Montserrat-bold";
+}

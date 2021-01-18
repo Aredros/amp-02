@@ -1,0 +1,80 @@
+.image-header-blog {
+  margin-bottom: 20px;
+  height: 200px;
+  background-image: url("http://localhost:10016/wp-content/themes/Amptheme1/assets/img/Img-banniere-montpellier.jpg");
+}
+
+.image-header-blog h1 {
+  color: white;
+  font-family: "Montserrat-bold";
+  margin-top: 50px;
+}
+
+.blog-article-card {
+  width: 320px;
+  min-height: 280px;
+  height: auto;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 4px #63636380;
+}
+
+.blog-article-card-img {
+  border-radius: 8px;
+  height: 150px;
+  width: 280px;
+  overflow: hidden;
+  margin: 15px auto auto auto;
+}
+
+.blog-article-card h4,
+.blog-article-card h5 {
+  font-family: "Montserrat-bold";
+  text-align: left;
+  padding-left: 15px;
+  color: black;
+}
+
+.blog-article-card h4 {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.blog-article-card h5 {
+  font-size: 13.4px;
+}
+
+.blog-article-card p {
+  font-family: "Montserrat-light";
+  font-size: 13px;
+  color: black;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.cat-button {
+  border: 2px solid #589697;
+  border-radius: 5px;
+}
+
+.cat-button button {
+  font-family: "Montserrat-bold";
+  font-size: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 50px;
+}
+
+.cat-button button:hover {
+  background-color: #589697;
+  height: 50px;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .cat-button button {
+    font-size: 15px;
+  }
+}

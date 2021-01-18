@@ -1,0 +1,27 @@
+.image-whiteboys-container {
+  align-content: center;
+  text-align: center;
+}
+
+.three-images-containers {
+  align-content: center;
+  text-align: center;
+}
+
+.white-bg {
+  background: white;
+}
+
+.area-two-rejoignez-nous {
+  background-image: url("http://localhost:10016/wp-content/uploads/2021/01/bk-img-form.jpg");
+}
+
+.inside-area-two {
+  align-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat-bold";
+  font-size: 22px;
+}
